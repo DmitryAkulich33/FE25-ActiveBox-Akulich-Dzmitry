@@ -1,0 +1,36 @@
+@mixin h1 {
+  font-weight: 900;
+  font-size: $_64px;
+  line-height: $_75px;
+  text-transform: uppercase;
+}
+
+@mixin h2 {
+  font-weight: bold;
+  font-size: $_36px;
+  line-height: $_42px;
+}
+
+@mixin h3 {
+  font-weight: bold;
+  font-size: $_30px;
+  line-height: $_35px;
+}
+
+@mixin h4 {
+  font-weight: 900;
+  font-size: $_24px;
+  line-height: $_28px;
+}
+
+@mixin h5 {
+  font-weight: normal;
+  font-size: $_18px;
+  line-height: $_21px;
+}
+
+@mixin h6 {
+  font-weight: bold;
+  font-size: $_13px;
+  line-height: $_15px;
+}

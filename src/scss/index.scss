@@ -1,0 +1,24 @@
+@import 'fontsizes.scss';
+@import 'cdn.scss';
+@import 'colors.scss';
+@import 'mixins/fonts.scss';
+@import 'mixins/buttons.scss';
+@import 'footer.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
