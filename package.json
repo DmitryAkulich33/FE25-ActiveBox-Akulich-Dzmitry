@@ -1,0 +1,25 @@
+{
+  "name": "fe25-activebox-akulich-dzmitry",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryAkulich33/FE25-ActiveBox-Akulich-Dzmitry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryAkulich33/FE25-ActiveBox-Akulich-Dzmitry/issues"
+  },
+  "homepage": "https://github.com/DmitryAkulich33/FE25-ActiveBox-Akulich-Dzmitry#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2"
+  }
+}
