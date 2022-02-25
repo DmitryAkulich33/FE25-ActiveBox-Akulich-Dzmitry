@@ -17,32 +17,32 @@
 //   line-height: $_35px;
 // }
 
-// @mixin h4 {
-//   font-weight: 900;
-//   font-size: $_24px;
-//   line-height: $_28px;
-// }
-
 @mixin text1 {
-  font-weight: normal;
   font-size: $_18px;
   line-height: $_21px;
+  text-align: center;
 }
 
 @mixin text2 {
-  font-weight: normal;
   font-size: $_14px;
   line-height: $_16px;
+  text-align: center;
 }
 
 @mixin text3 {
-  font-weight: 500;
   font-size: $_30px;
   line-height: $_35px;
+  text-align: center;
 }
 
-// @mixin h6 {
-//   font-weight: bold;
-//   font-size: $_13px;
-//   line-height: $_15px;
-// }
+@mixin text4 {
+  font-size: $_24px;
+  line-height: $_28px;
+  text-align: center;
+}
+
+@mixin text5 {
+  font-size: $_13px;
+  line-height: $_15px;
+  text-align: center;
+}
