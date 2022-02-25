@@ -1,9 +1,11 @@
-@import 'fontsizes.scss';
-@import 'cdn.scss';
-@import 'colors.scss';
+@import 'cdns/cdn.scss';
+@import 'variables/fontsizes.scss';
+@import 'variables/colors.scss';
 @import 'mixins/fonts.scss';
 @import 'mixins/buttons.scss';
 @import 'footer.scss';
+@import 'contacts.scss';
+@import 'download.scss';
 
 * {
   margin: 0;
@@ -21,4 +23,43 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: $_64px;
+  line-height: $_75px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: $_36px;
+  line-height: $_42px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: $_30px;
+  line-height: $_35px;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: $_24px;
+  line-height: $_28px;
+}
+
+//used
+h5 {
+  font-weight: normal;
+  font-size: $_18px;
+  line-height: $_21px;
+  text-align: center;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: $_13px;
+  line-height: $_15px;
 }

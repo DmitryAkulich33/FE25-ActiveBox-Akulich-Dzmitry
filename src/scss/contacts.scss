@@ -1,0 +1,70 @@
+.contacts {
+  padding: 71px 0;
+  background-color: $purple3;
+  @media (max-width: 670px) {
+    padding: 34px 0;
+  }
+  .contacts-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+    .contacts-card {
+      margin: 0 15px;
+      width: 360px;
+      @media (max-width: 1200px) {
+        margin: 0 10px;
+        width: 315px;
+        font-size: $_14px;
+        line-height: $_16px;
+      }
+      @media (max-width: 1006px) {
+        margin-bottom: 15px;
+      }
+      h5 {
+        font-weight: bold;
+        color: $white;
+      }
+      .contacts-card-text {
+        @include text1;
+        text-align: center;
+        text-transform: capitalize;
+        color: $white;
+        padding-top: 29px;
+
+        @media (max-width: 1200px) {
+          @include text2;
+        }
+      }
+      .contacts-card-logo {
+        padding-top: 49px;
+        .logo-list {
+          display: flex;
+          justify-content: center;
+          .logo-list-item {
+            height: 39px;
+            width: 39px;
+            border: 1px solid $grey3;
+            margin-right: 27px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:last-child {
+              margin-right: 0px;
+            }
+            .fa-brands {
+              color: $grey3;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .middle {
+      @media (max-width: 670px) {
+        margin-top: 69px;
+        margin-bottom: 59px;
+      }
+    }
+  }
+}
