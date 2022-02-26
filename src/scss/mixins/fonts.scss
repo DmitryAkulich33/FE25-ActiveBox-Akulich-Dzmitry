@@ -5,12 +5,6 @@
 //   text-transform: uppercase;
 // }
 
-// @mixin h2 {
-//   font-weight: bold;
-//   font-size: $_36px;
-//   line-height: $_42px;
-// }
-
 // @mixin h3 {
 //   font-weight: bold;
 //   font-size: $_30px;
@@ -44,5 +38,17 @@
 @mixin text5 {
   font-size: $_13px;
   line-height: $_15px;
+  text-align: center;
+}
+
+@mixin text6 {
+  font-size: $_48px;
+  line-height: $_56px;
+  text-align: center;
+}
+
+@mixin text7 {
+  font-size: $_36px;
+  line-height: $_42px;
   text-align: center;
 }
