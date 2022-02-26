@@ -1,0 +1,65 @@
+.features {
+  padding: 116px 0 66px;
+  @media (max-width: 1200px) {
+    padding: 78px 0 30px;
+  }
+  @media (max-width: 380px) {
+    padding: 40px 0 0;
+  }
+  .features-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+    .features-card {
+      width: 360px;
+      margin: 0 15px 50px;
+      @media (max-width: 1200px) {
+        width: 315px;
+        margin: 0 10px 50px;
+      }
+      @media (max-width: 380px) {
+        margin-bottom: 42px;
+      }
+      .features-icon {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        @media (max-width: 1200px) {
+          width: 85px;
+          height: 85px;
+        }
+        @media (max-width: 380px) {
+          width: 75px;
+          height: 75px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      h4 {
+        margin: 70px 0 50px;
+        color: $black1;
+        text-transform: uppercase;
+        @media (max-width: 1200px) {
+          @include text1;
+          margin: 50px 0 30px;
+        }
+        @media (max-width: 380px) {
+          margin: 35px 0 10px;
+        }
+      }
+      .features-text {
+        font-weight: normal;
+        @include text1;
+        color: $grey2;
+        @media (max-width: 1200px) {
+          @include text2;
+        }
+      }
+    }
+  }
+}
