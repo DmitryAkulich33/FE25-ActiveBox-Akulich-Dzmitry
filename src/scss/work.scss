@@ -35,10 +35,47 @@
             text-transform: uppercase;
             color: $white;
             z-index: 1;
+            @media (max-width: 812px) {
+              left: 10%;
+              width: 80%;
+            }
+            @media (max-width: 720px) {
+              left: 5%;
+              width: 90%;
+            }
+            @media (max-width: 670px) {
+              left: 15%;
+              width: 70%;
+              top: 30%;
+            }
+            @media (max-width: 410px) {
+              left: 5%;
+              width: 90%;
+            }
+            h4 {
+              @media (max-width: 1050px) {
+                @include text1;
+              }
+              @media (max-width: 670px) {
+                @include text4;
+              }
+              @media (max-width: 530px) {
+                @include text1;
+              }
+            }
             .project-description {
               @include text1;
               text-transform: capitalize;
               margin-top: 15%;
+              @media (max-width: 1050px) {
+                @include text2;
+              }
+              @media (max-width: 670px) {
+                @include text1;
+              }
+              @media (max-width: 530px) {
+                @include text2;
+              }
             }
           }
           &::after {
@@ -53,6 +90,9 @@
         }
         &:hover .project-info {
           display: block;
+        }
+        &:active .project-info::after {
+          background-color: $red4;
         }
       }
     }
