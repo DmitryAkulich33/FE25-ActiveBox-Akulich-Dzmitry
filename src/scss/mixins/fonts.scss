@@ -45,3 +45,15 @@
   line-height: $_49px;
   text-align: center;
 }
+
+@mixin text9 {
+  font-size: $_24px;
+  line-height: $_32px;
+  text-align: center;
+}
+
+@mixin text10 {
+  font-size: $_12px;
+  line-height: $_14px;
+  text-align: center;
+}

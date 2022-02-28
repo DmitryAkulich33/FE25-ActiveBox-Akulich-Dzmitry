@@ -3,7 +3,7 @@
   @media (max-width: 1200px) {
     padding: 78px 0 30px;
   }
-  @media (max-width: 380px) {
+  @media (max-width: 600px) {
     padding: 40px 0 0;
   }
   .features-row {
@@ -18,7 +18,7 @@
         width: 315px;
         margin: 0 10px 50px;
       }
-      @media (max-width: 380px) {
+      @media (max-width: 480px) {
         margin-bottom: 42px;
       }
       .features-icon {
@@ -32,7 +32,7 @@
           width: 85px;
           height: 85px;
         }
-        @media (max-width: 380px) {
+        @media (max-width: 480px) {
           width: 75px;
           height: 75px;
         }
@@ -48,7 +48,7 @@
           @include text1;
           margin: 50px 0 30px;
         }
-        @media (max-width: 380px) {
+        @media (max-width: 480px) {
           margin: 35px 0 10px;
         }
       }

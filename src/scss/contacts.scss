@@ -1,7 +1,7 @@
 .contacts {
   padding: 71px 0;
   background-color: $purple3;
-  @media (max-width: 670px) {
+  @media (max-width: 800px) {
     padding: 34px 0;
   }
   .contacts-row {
@@ -18,10 +18,14 @@
         font-size: $_14px;
         line-height: $_16px;
       }
-      @media (max-width: 1006px) {
+      @media (max-width: 1024px) {
         margin-bottom: 15px;
       }
-
+      @media (max-width: 800px) {
+        margin-top: 69px;
+        margin-bottom: 59px;
+        width: 300px;
+      }
       @media (max-width: 320px) {
         width: 90%;
       }
@@ -63,7 +67,7 @@
       }
     }
     .middle {
-      @media (max-width: 670px) {
+      @media (max-width: 800px) {
         margin-top: 69px;
         margin-bottom: 59px;
       }

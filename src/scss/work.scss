@@ -16,7 +16,7 @@
         overflow: hidden;
         position: relative;
         cursor: pointer;
-        @media (max-width: 670px) {
+        @media (max-width: 768px) {
           width: 50%;
         }
         img {
@@ -35,20 +35,16 @@
             text-transform: uppercase;
             color: $white;
             z-index: 1;
-            @media (max-width: 812px) {
+            @media (max-width: 864px) {
               left: 10%;
               width: 80%;
             }
-            @media (max-width: 720px) {
-              left: 5%;
-              width: 90%;
-            }
-            @media (max-width: 670px) {
+            @media (max-width: 768px) {
               left: 15%;
               width: 70%;
               top: 30%;
             }
-            @media (max-width: 410px) {
+            @media (max-width: 480px) {
               left: 5%;
               width: 90%;
             }
@@ -56,10 +52,10 @@
               @media (max-width: 1050px) {
                 @include text1;
               }
-              @media (max-width: 670px) {
+              @media (max-width: 768px) {
                 @include text4;
               }
-              @media (max-width: 530px) {
+              @media (max-width: 600px) {
                 @include text1;
               }
             }
@@ -70,10 +66,10 @@
               @media (max-width: 1050px) {
                 @include text2;
               }
-              @media (max-width: 670px) {
+              @media (max-width: 768px) {
                 @include text1;
               }
-              @media (max-width: 530px) {
+              @media (max-width: 600px) {
                 @include text2;
               }
             }

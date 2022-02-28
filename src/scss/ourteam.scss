@@ -1,9 +1,9 @@
 .ourteam {
   padding: 114px 0;
-  @media (max-width: 1028px) {
+  @media (max-width: 1024px) {
     padding: 78px 0 28px;
   }
-  @media (max-width: 514px) {
+  @media (max-width: 480px) {
     padding-bottom: 0;
   }
   .ourteam-row {
@@ -16,13 +16,13 @@
       width: calc((100% - 120px) / 4);
       display: flex;
       flex-direction: column;
-      @media (max-width: 1028px) {
+      @media (max-width: 800px) {
         margin-bottom: 50px;
       }
-      @media (max-width: 770px) {
+      @media (max-width: 800px) {
         width: calc((100% - 60px) / 2);
       }
-      @media (max-width: 514px) {
+      @media (max-width: 480px) {
         width: calc(100% - 30px);
       }
 
@@ -45,7 +45,7 @@
         text-align: left;
         margin-top: 31px;
         margin-bottom: 6px;
-        @media (max-width: 1170px) {
+        @media (max-width: 1200px) {
           @include text1;
         }
       }
@@ -54,7 +54,7 @@
         text-align: left;
         text-transform: uppercase;
         color: $red1;
-        @media (max-width: 1170px) {
+        @media (max-width: 1200px) {
           @include text2;
         }
       }
@@ -66,7 +66,7 @@
         margin-bottom: 38px;
         display: flex;
         flex-grow: 2;
-        @media (max-width: 1170px) {
+        @media (max-width: 1200px) {
           @include text2;
           text-align: left;
         }
@@ -76,11 +76,11 @@
         li {
           margin-right: 6px;
           @include brands;
-          @media (max-width: 1170px) {
+          @media (max-width: 1200px) {
             width: 33px;
             height: 33px;
           }
-          @media (max-width: 514px) {
+          @media (max-width: 480px) {
             width: 39px;
             height: 39px;
           }
@@ -93,10 +93,10 @@
           .fa-brands {
             color: $grey3;
             font-size: 20px;
-            @media (max-width: 1170px) {
+            @media (max-width: 1200px) {
               font-size: 18px;
             }
-            @media (max-width: 514px) {
+            @media (max-width: 480px) {
               font-size: 20px;
             }
           }

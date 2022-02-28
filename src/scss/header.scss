@@ -6,7 +6,7 @@
   background-size: cover;
   position: relative;
   z-index: 1;
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     padding-bottom: 52px;
   }
   &::after {
@@ -28,7 +28,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
       border-bottom: 1px solid $grey1;
-      @media (max-width: 890px) {
+      @media (max-width: 900px) {
         border: none;
       }
       .header-logo {
@@ -51,7 +51,7 @@
         position: relative;
         cursor: pointer;
         margin: 0 20px;
-        @media (max-width: 890px) {
+        @media (max-width: 900px) {
           display: block;
         }
         span {
@@ -84,7 +84,7 @@
       }
       .menu {
         width: 670px;
-        @media (max-width: 890px) {
+        @media (max-width: 900px) {
           display: none;
         }
         .menu-list {
@@ -164,7 +164,7 @@
           @include text1;
         }
 
-        @media (max-width: 350px) {
+        @media (max-width: 480px) {
           width: 100%;
         }
       }
