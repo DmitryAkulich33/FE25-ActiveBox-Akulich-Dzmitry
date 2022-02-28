@@ -1,0 +1,105 @@
+.testimonials {
+  .container {
+    max-width: 100%;
+    padding: 0;
+    .testimonials-slider {
+      width: 100%;
+      position: relative;
+      .slick-track {
+        display: flex;
+        align-items: flex-start;
+      }
+      .slick-list {
+        overflow: hidden;
+      }
+      .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;
+        width: 30px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        margin-top: -25px;
+      }
+      .slick-arrow.slick-prev {
+        left: 0;
+        background: url('../img/arrows/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+      }
+      .slick-arrow.slick-next {
+        right: 0;
+        background: url('../img/arrows/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+      }
+      .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        li {
+          display: flex;
+          list-style: none;
+          margin: 0 25px;
+          button {
+            font-size: 0;
+            width: 12px;
+            height: 12px;
+            border: 1px solid $brown2;
+            border-radius: 50%;
+            cursor: pointer;
+            &:hover {
+              background-color: $brown2;
+            }
+          }
+        }
+        li.slick-active button {
+          background-color: $brown2;
+        }
+      }
+      .testimonials-slider-item {
+        display: flex;
+        align-items: center;
+        height: 490px;
+        width: 100%;
+        .testimonials-foto {
+          min-width: 50%;
+          min-height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          img {
+            width: 100%;
+          }
+        }
+        .testimonials-text {
+          background-color: $brown1;
+          min-width: 50%;
+          height: 100%;
+          h2 {
+            @include text8;
+            font-family: 'Cardo', sans-serif;
+            font-style: italic;
+            width: 55%;
+            color: $white;
+            margin: auto;
+            text-transform: capitalize;
+            text-align: left;
+            margin-top: 116px;
+          }
+          span {
+            @include text5;
+            text-align: left;
+            font-weight: bold;
+            text-transform: uppercase;
+            width: 55%;
+            margin: auto;
+            display: block;
+            color: $white;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+}
