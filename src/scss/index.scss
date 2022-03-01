@@ -20,17 +20,14 @@
   list-style: none;
   text-decoration: none;
 }
-
 .container {
   max-width: 1170px;
   padding: 0px 15px;
   margin: auto;
 }
-
 body {
   font-family: 'Raleway', sans-serif;
 }
-
 h1 {
   font-weight: 900;
   font-size: $_64px;
@@ -38,35 +35,30 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
-
 h2 {
   font-weight: bold;
   font-size: $_36px;
   line-height: $_42px;
   text-align: center;
 }
-
 h3 {
   font-weight: bold;
   font-size: $_30px;
   line-height: $_35px;
   text-align: center;
 }
-
 h4 {
   font-weight: 900;
   font-size: $_24px;
   line-height: $_28px;
   text-align: center;
 }
-
 h5 {
   font-weight: normal;
   font-size: $_18px;
   line-height: $_21px;
   text-align: center;
 }
-
 h6 {
   font-weight: bold;
   font-size: $_13px;

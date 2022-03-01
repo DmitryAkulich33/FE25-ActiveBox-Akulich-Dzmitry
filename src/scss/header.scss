@@ -20,154 +20,153 @@
     height: 100%;
     position: absolute;
   }
-  .container {
-    z-index: 2;
-    position: relative;
-    .header-row {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      border-bottom: 1px solid $grey1;
-      @media (max-width: 900px) {
-        border: none;
-      }
-      .header-logo {
-        text-transform: uppercase;
-        @include text3;
-        font-weight: bold;
-        text-align: left;
-        .logo-text {
-          color: $grey6;
-          &::after {
-            content: 'BOX';
-            color: $white;
-            font-weight: normal;
-          }
-        }
-      }
-      .burger-menu {
-        display: none;
-        width: 30px;
-        position: relative;
-        cursor: pointer;
-        margin: 0 20px;
-        @media (max-width: 900px) {
-          display: block;
-        }
-        span {
-          height: 3px;
-          width: 100%;
-          display: block;
-          background-color: $white;
-          top: 17px;
-          position: absolute;
-          &:before {
-            content: '';
-            height: 3px;
-            width: 100%;
-            display: block;
-            background-color: $white;
-            top: 10px;
-            position: absolute;
-          }
-
-          &:after {
-            content: '';
-            height: 3px;
-            width: 100%;
-            display: block;
-            background-color: $white;
-            bottom: 10px;
-            position: absolute;
-          }
-        }
-      }
-      .menu {
-        width: 670px;
-        @media (max-width: 900px) {
-          display: none;
-        }
-        .menu-list {
-          display: flex;
-          justify-content: space-around;
-          align-content: center;
-          flex-wrap: wrap;
-          .menu-list__item {
-            width: 134px;
-            padding-bottom: 36px;
-            border-bottom: 2px solid $grey5;
-            cursor: pointer;
-            @include text5;
-            font-weight: bold;
-            text-transform: uppercase;
-            &:hover {
-              border-bottom: 2px solid $grey1;
-            }
-            &:active {
-              border-bottom: 2px solid $red2;
-            }
-            a {
-              color: $white;
-              &:active {
-                color: $red2;
-              }
-            }
-          }
-        }
+}
+.container {
+  z-index: 2;
+  position: relative;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid $grey1;
+  @media (max-width: 900px) {
+    border: none;
+  }
+}
+.header-logo {
+  text-transform: uppercase;
+  @include text3;
+  font-weight: bold;
+  text-align: left;
+  .logo-text {
+    color: $grey6;
+    &::after {
+      content: 'BOX';
+      color: $white;
+      font-weight: normal;
+    }
+  }
+}
+.burger-menu {
+  display: none;
+  width: 30px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 20px;
+  @media (max-width: 900px) {
+    display: block;
+  }
+  span {
+    height: 3px;
+    width: 100%;
+    display: block;
+    background-color: $white;
+    top: 17px;
+    position: absolute;
+    &:before {
+      content: '';
+      height: 3px;
+      width: 100%;
+      display: block;
+      background-color: $white;
+      top: 10px;
+      position: absolute;
+    }
+    &:after {
+      content: '';
+      height: 3px;
+      width: 100%;
+      display: block;
+      background-color: $white;
+      bottom: 10px;
+      position: absolute;
+    }
+  }
+}
+.menu {
+  width: 670px;
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  .menu-list__item {
+    width: 134px;
+    padding-bottom: 36px;
+    border-bottom: 2px solid $grey5;
+    cursor: pointer;
+    @include text5;
+    font-weight: bold;
+    text-transform: uppercase;
+    &:hover {
+      border-bottom: 2px solid $grey1;
+    }
+    &:active {
+      border-bottom: 2px solid $red2;
+    }
+    a {
+      color: $white;
+      &:active {
+        color: $red2;
       }
     }
-    .header-content {
-      margin: 129px auto 0;
-      color: $white;
+  }
+}
+.header-content {
+  margin: 129px auto 0;
+  color: $white;
+  width: 100%;
+  h1 {
+    @media (max-width: 1200px) {
+      @include text6;
+      margin: 157px auto 0;
+    }
+    @media (max-width: 600px) {
+      @include text7;
+      margin: 50px auto 0;
+    }
+  }
+  .header-subtitle {
+    @include text4;
+    font-weight: normal;
+    margin: 31px auto 80px;
+    width: 90%;
+    @media (max-width: 1200px) {
+      @include text1;
+      margin: 61px auto 89px;
+    }
+    @media (max-width: 600px) {
+      @include text2;
+      margin: 32px auto 49px;
+    }
+  }
+  .btn {
+    @include btn;
+    @include text4;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    &:hover {
+      background: $red2;
+    }
+
+    &:active {
+      background: $red1;
+      box-shadow: 4px 4px 30px $red1;
+    }
+
+    @media (max-width: 1024px) {
+      width: 314px;
+      @include text1;
+    }
+
+    @media (max-width: 480px) {
       width: 100%;
-      h1 {
-        @media (max-width: 1200px) {
-          @include text6;
-          margin: 157px auto 0;
-        }
-        @media (max-width: 600px) {
-          @include text7;
-          margin: 50px auto 0;
-        }
-      }
-      .header-subtitle {
-        @include text4;
-        font-weight: normal;
-        margin: 31px auto 80px;
-        width: 90%;
-        @media (max-width: 1200px) {
-          @include text1;
-          margin: 61px auto 89px;
-        }
-        @media (max-width: 600px) {
-          @include text2;
-          margin: 32px auto 49px;
-        }
-      }
-      .btn {
-        @include btn;
-        @include text4;
-        font-weight: 900;
-        text-transform: uppercase;
-
-        &:hover {
-          background: $red2;
-        }
-
-        &:active {
-          background: $red1;
-          box-shadow: 4px 4px 30px $red1;
-        }
-
-        @media (max-width: 1024px) {
-          width: 314px;
-          @include text1;
-        }
-
-        @media (max-width: 480px) {
-          width: 100%;
-        }
-      }
     }
   }
 }

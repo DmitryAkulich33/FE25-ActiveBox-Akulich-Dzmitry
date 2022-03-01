@@ -6,19 +6,6 @@
   @media (max-width: 600px) {
     padding: 34px 0 45px;
   }
-  .download-title {
-    @include text3;
-    font-weight: 500;
-    color: $black2;
-    width: 80%;
-    margin: auto;
-    @media (max-width: 1024px) {
-      @include text4;
-    }
-    @media (max-width: 600px) {
-      @include text1;
-    }
-  }
   h5 {
     font-weight: bold;
     margin: 25px auto 48px;
@@ -55,5 +42,18 @@
     @media (max-width: 480px) {
       width: 100%;
     }
+  }
+}
+.download-title {
+  @include text3;
+  font-weight: 500;
+  color: $black2;
+  width: 80%;
+  margin: auto;
+  @media (max-width: 1024px) {
+    @include text4;
+  }
+  @media (max-width: 600px) {
+    @include text1;
   }
 }

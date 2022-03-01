@@ -1,27 +1,24 @@
 .footer {
   background-color: $purple2;
   padding: 24px 0;
-  .footer-copyright {
-    width: 370px;
+}
+.footer-copyright {
+  width: 370px;
+  margin: auto;
+  @include text1;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: $grey4;
+  @media (max-width: 480px) {
+    width: 95%;
+    @include text2;
+  }
+  .copyright-text {
     margin: auto;
-    @include text1;
-    font-weight: normal;
-    text-transform: capitalize;
-    color: $grey4;
-
-    @media (max-width: 480px) {
-      width: 95%;
-      @include text2;
-    }
-
-    .copyright-text {
-      margin: auto;
-      display: block;
-
-      &::after {
-        content: 'by Kamal Chaneman';
-        color: $white;
-      }
+    display: block;
+    &::after {
+      content: 'by Kamal Chaneman';
+      color: $white;
     }
   }
 }
