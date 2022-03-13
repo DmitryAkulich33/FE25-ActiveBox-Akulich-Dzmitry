@@ -11,7 +11,7 @@
   }
   &::after {
     content: '';
-    background: $purple;
+    background: $bg_header;
     mix-blend-mode: normal;
     opacity: 0.8;
     top: 0;
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-bottom: 1px solid $grey1;
+  border-bottom: 1px solid $link_menu_border;
   @media (max-width: 900px) {
     border: none;
   }
@@ -41,10 +41,10 @@
   font-weight: bold;
   text-align: left;
   .logo-text {
-    color: $grey6;
+    color: $text_grey;
     &::after {
       content: 'BOX';
-      color: $white;
+      color: $text_white;
       font-weight: normal;
     }
   }
@@ -62,7 +62,7 @@
     height: 3px;
     width: 100%;
     display: block;
-    background-color: $white;
+    background-color: $bg_burger_menu;
     top: 50%;
     position: absolute;
     &:before {
@@ -70,7 +70,7 @@
       height: 3px;
       width: 100%;
       display: block;
-      background-color: $white;
+      background-color: $bg_burger_menu;
       top: 10px;
       position: absolute;
     }
@@ -79,7 +79,7 @@
       height: 3px;
       width: 100%;
       display: block;
-      background-color: $white;
+      background-color: $bg_burger_menu;
       bottom: 10px;
       position: absolute;
     }
@@ -99,7 +99,7 @@
   .menu-list__item {
     width: 134px;
     padding-bottom: 36px;
-    border-bottom: 2px solid $grey5;
+    border-bottom: 2px solid $link_menu_border_hidden;
     cursor: pointer;
     font-size: $_13px;
     line-height: $_15px;
@@ -108,23 +108,23 @@
     text-transform: uppercase;
     transition: 0.2s;
     &:hover {
-      border-bottom: 2px solid $grey1;
+      border-bottom: 2px solid $link_menu_border;
     }
     &:active {
-      border-bottom: 2px solid $red2;
+      border-bottom: 2px solid $link_menu_active;
     }
     &:active a {
-      color: $red2;
+      color: $link_menu_active;
     }
     a {
-      color: $white;
+      color: $text_white;
       transition: 0.2s;
     }
   }
 }
 .header-content {
   margin: 129px auto 0;
-  color: $white;
+  color: $text_white;
   width: 100%;
   h1 {
     @media (max-width: 1200px) {

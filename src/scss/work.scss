@@ -10,7 +10,7 @@
   a {
     width: 25%;
     min-height: 20px;
-    border: 2px solid $white;
+    border: 2px solid $link_work_border;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -28,7 +28,7 @@
       display: block;
     }
     &:active .project-info::after {
-      background-color: $red4;
+      background-color: $link_work_active;
     }
   }
 }
@@ -36,7 +36,7 @@
   display: none;
   &::after {
     content: '';
-    background-color: $red3;
+    background-color: $link_work_hover;
     top: 0;
     left: 0;
     width: 100%;
@@ -51,7 +51,7 @@
   width: 70%;
   margin: auto;
   text-transform: uppercase;
-  color: $white;
+  color: $text_white;
   z-index: 1;
   @media (max-width: 864px) {
     left: 10%;

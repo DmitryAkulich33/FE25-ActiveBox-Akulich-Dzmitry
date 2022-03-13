@@ -49,7 +49,7 @@
         font-size: 0;
         width: 12px;
         height: 12px;
-        border: 1px solid $brown2;
+        border: 1px solid $dots_slider;
         border-radius: 50%;
         transition: 0.2s;
         @media (max-width: 480px) {
@@ -58,12 +58,12 @@
         }
         cursor: pointer;
         &:hover {
-          background-color: $brown2;
+          background-color: $dots_slider;
         }
       }
     }
     li.slick-active button {
-      background-color: $brown2;
+      background-color: $dots_slider;
     }
   }
 }
@@ -104,7 +104,7 @@
   }
 }
 .testimonials-text {
-  background-color: $brown1;
+  background-color: $bg_slider;
   width: 55%;
   height: 100%;
   @media (max-width: 480px) {
@@ -115,7 +115,7 @@
     font-style: italic;
     font-weight: normal;
     width: 75%;
-    color: $white;
+    color: $text_white;
     margin: auto;
     text-transform: capitalize;
     text-align: left;
@@ -144,7 +144,7 @@
     width: 75%;
     margin: auto;
     display: block;
-    color: $white;
+    color: $text_white;
     margin-top: 15px;
     @media (max-width: 768px) {
       width: 90%;

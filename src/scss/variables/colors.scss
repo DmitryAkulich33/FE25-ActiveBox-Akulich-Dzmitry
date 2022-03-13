@@ -1,18 +1,32 @@
-$black1: #2d3033;
-$black2: #000000;
-$white: #ffffff;
-$grey1: #babbc5;
-$grey2: #6c7279;
-$grey3: #c6cbcd;
-$grey4: #808080;
-$grey5: #babbc500;
-$grey6: #656980;
-$red1: #ff4343;
-$red2: #e71414;
-$red3: #ff4343cc;
-$red4: #b90c0ccc;
-$purple: #252b49;
-$purple2: #2c3154;
-$purple3: #353c65;
-$brown1: #5c3249;
-$brown2: #7e5d6f;
+// backgrounds for setions
+$bg_contacts: #353c65;
+$bg_footer: #2c3154;
+$bg_header: #252b49;
+
+// colors for slider
+$dots_slider: #7e5d6f;
+$bg_slider: #5c3249;
+
+// text colors
+$text_white: #ffffff;
+$text_black: #2d3033;
+$text_grey: #6c7279;
+$text_red: #ff4343;
+
+// brand colors
+$brand_color: #c6cbcd;
+
+// button colors
+$btn_color: #ff4343;
+$btn_hover_color: #e71414;
+
+// link colors
+$link_menu_border: #babbc5;
+$link_menu_border_hidden: #babbc500;
+$link_menu_active: #e71414;
+$link_work_border: #ffffff;
+$link_work_active: #b90c0ccc;
+$link_work_hover: #ff4343cc;
+
+// burger menu
+$bg_burger_menu: #ffffff;

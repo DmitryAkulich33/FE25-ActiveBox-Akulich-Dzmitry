@@ -1,5 +1,5 @@
 .footer {
-  background-color: $purple2;
+  background-color: $bg_footer;
   padding: 24px 0;
 }
 .footer-copyright {
@@ -10,7 +10,7 @@
   text-align: center;
   font-weight: normal;
   text-transform: capitalize;
-  color: $grey4;
+  color: $text_grey;
   @media (max-width: 480px) {
     width: 95%;
   }
@@ -19,7 +19,7 @@
     display: block;
     &::after {
       content: 'by Kamal Chaneman';
-      color: $white;
+      color: $text_white;
     }
   }
 }

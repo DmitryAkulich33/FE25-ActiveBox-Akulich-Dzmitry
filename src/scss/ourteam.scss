@@ -47,7 +47,7 @@
         margin-right: 0px;
       }
       .fa-brands {
-        color: $grey3;
+        color: $brand_color;
         font-size: 20px;
         @media (max-width: 1200px) {
           font-size: 18px;
@@ -75,7 +75,7 @@
   line-height: $_28px;
   text-transform: capitalize;
   font-weight: bold;
-  color: $black1;
+  color: $text_grey;
   text-align: left;
   margin-top: 31px;
   margin-bottom: 6px;
@@ -93,7 +93,7 @@
   line-height: $_21px;
   text-align: left;
   text-transform: uppercase;
-  color: $red1;
+  color: $text_red;
   @media (max-width: 800px) {
     font-size: $_24px;
     line-height: $_28px;
@@ -107,7 +107,7 @@
   font-size: $_18px;
   line-height: $_21px;
   text-align: left;
-  color: $grey2;
+  color: $text_grey;
   margin-top: 18px;
   margin-bottom: 38px;
   display: flex;

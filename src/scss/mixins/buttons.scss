@@ -3,10 +3,10 @@
   height: 80px;
   display: block;
   margin: auto;
-  background: $red1;
+  background: $btn_color;
   text-align: center;
   text-transform: uppercase;
-  color: $white;
+  color: $text_white;
   border: none;
   cursor: pointer;
   transition: 0.2s;
@@ -14,11 +14,11 @@
   line-height: 28px;
   font-weight: 900;
   &:hover {
-    background: $red2;
+    background: $btn_hover_color;
   }
   &:active {
-    background: $red1;
-    box-shadow: 4px 4px 30px $red1;
+    background: $btn_color;
+    box-shadow: 4px 4px 30px $btn_color;
   }
 
   @media (max-width: 1024px) {
