@@ -1,7 +1,6 @@
 @import 'cdns/cdn.scss';
 @import 'variables/fontsizes.scss';
 @import 'variables/colors.scss';
-@import 'mixins/fonts.scss';
 @import 'mixins/buttons.scss';
 @import 'mixins/brands.scss';
 @import 'footer.scss';
@@ -64,4 +63,21 @@ h6 {
   font-size: $_13px;
   line-height: $_15px;
   text-align: center;
+}
+html {
+  @media (max-width: 1200px) {
+    font-size: 14px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 12px;
+  }
+  @media (max-width: 768px) {
+    font-size: 11px;
+  }
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+  @media (max-width: 480px) {
+    font-size: 9px;
+  }
 }

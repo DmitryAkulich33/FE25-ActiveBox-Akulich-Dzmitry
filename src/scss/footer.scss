@@ -5,13 +5,14 @@
 .footer-copyright {
   width: 370px;
   margin: auto;
-  @include text1;
+  font-size: $_18px;
+  line-height: $_21px;
+  text-align: center;
   font-weight: normal;
   text-transform: capitalize;
   color: $grey4;
   @media (max-width: 480px) {
     width: 95%;
-    @include text2;
   }
   .copyright-text {
     margin: auto;

@@ -28,7 +28,6 @@
     color: $black1;
     text-transform: uppercase;
     @media (max-width: 1200px) {
-      @include text1;
       margin: 50px 0 30px;
     }
     @media (max-width: 480px) {
@@ -57,9 +56,8 @@
 }
 .features-text {
   font-weight: normal;
-  @include text1;
+  font-size: $_24px;
+  line-height: $_28px;
+  text-align: center;
   color: $grey2;
-  @media (max-width: 1200px) {
-    @include text2;
-  }
 }

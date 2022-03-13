@@ -36,7 +36,8 @@
 }
 .header-logo {
   text-transform: uppercase;
-  @include text3;
+  font-size: $_30px;
+  line-height: $_35px;
   font-weight: bold;
   text-align: left;
   .logo-text {
@@ -62,7 +63,7 @@
     width: 100%;
     display: block;
     background-color: $white;
-    top: 17px;
+    top: 50%;
     position: absolute;
     &:before {
       content: '';
@@ -100,20 +101,24 @@
     padding-bottom: 36px;
     border-bottom: 2px solid $grey5;
     cursor: pointer;
-    @include text5;
+    font-size: $_13px;
+    line-height: $_15px;
+    text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+    transition: 0.2s;
     &:hover {
       border-bottom: 2px solid $grey1;
     }
     &:active {
       border-bottom: 2px solid $red2;
     }
+    &:active a {
+      color: $red2;
+    }
     a {
       color: $white;
-      &:active {
-        color: $red2;
-      }
+      transition: 0.2s;
     }
   }
 }
@@ -123,50 +128,27 @@
   width: 100%;
   h1 {
     @media (max-width: 1200px) {
-      @include text6;
       margin: 157px auto 0;
     }
     @media (max-width: 600px) {
-      @include text7;
       margin: 50px auto 0;
     }
   }
   .header-subtitle {
-    @include text4;
+    font-size: $_24px;
+    line-height: $_28px;
+    text-align: center;
     font-weight: normal;
     margin: 31px auto 80px;
     width: 90%;
     @media (max-width: 1200px) {
-      @include text1;
       margin: 61px auto 89px;
     }
     @media (max-width: 600px) {
-      @include text2;
       margin: 32px auto 49px;
     }
   }
   .btn {
     @include btn;
-    @include text4;
-    font-weight: 900;
-    text-transform: uppercase;
-
-    &:hover {
-      background: $red2;
-    }
-
-    &:active {
-      background: $red1;
-      box-shadow: 4px 4px 30px $red1;
-    }
-
-    @media (max-width: 1024px) {
-      width: 314px;
-      @include text1;
-    }
-
-    @media (max-width: 480px) {
-      width: 100%;
-    }
   }
 }

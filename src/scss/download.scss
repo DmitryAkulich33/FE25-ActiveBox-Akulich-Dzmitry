@@ -6,54 +6,22 @@
   @media (max-width: 600px) {
     padding: 34px 0 45px;
   }
-  h5 {
+  h4 {
     font-weight: bold;
     margin: 25px auto 48px;
     width: 80%;
     text-transform: uppercase;
-    @media (max-width: 1024px) {
-      @include text2;
-    }
-    @media (max-width: 480px) {
-      @include text5;
-    }
   }
   .btn {
     @include btn;
-    @include text4;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin: auto;
-
-    &:hover {
-      background: $red2;
-    }
-
-    &:active {
-      background: $red1;
-      box-shadow: 4px 4px 30px $red1;
-    }
-
-    @media (max-width: 1024px) {
-      width: 314px;
-      @include text1;
-    }
-
-    @media (max-width: 480px) {
-      width: 100%;
-    }
   }
 }
 .download-title {
-  @include text3;
+  font-size: $_36px;
+  line-height: $_42px;
+  text-align: center;
   font-weight: 500;
   color: $black2;
   width: 80%;
   margin: auto;
-  @media (max-width: 1024px) {
-    @include text4;
-  }
-  @media (max-width: 600px) {
-    @include text1;
-  }
 }

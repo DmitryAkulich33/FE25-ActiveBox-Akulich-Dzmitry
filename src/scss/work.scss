@@ -24,7 +24,6 @@
       width: 100%;
       object-fit: cover;
     }
-
     &:hover .project-info {
       display: block;
     }
@@ -59,8 +58,7 @@
     width: 80%;
   }
   @media (max-width: 768px) {
-    left: 15%;
-    width: 70%;
+    width: 80%;
     top: 30%;
   }
   @media (max-width: 480px) {
@@ -68,28 +66,20 @@
     width: 90%;
   }
   h4 {
-    @media (max-width: 1050px) {
-      @include text1;
-    }
     @media (max-width: 768px) {
-      @include text4;
-    }
-    @media (max-width: 600px) {
-      @include text1;
+      font-size: $_30px;
+      line-height: $_35px;
     }
   }
 }
 .project-description {
-  @include text1;
+  font-size: $_18px;
+  line-height: $_21px;
+  text-align: center;
   text-transform: capitalize;
   margin-top: 15%;
-  @media (max-width: 1050px) {
-    @include text2;
-  }
   @media (max-width: 768px) {
-    @include text1;
-  }
-  @media (max-width: 600px) {
-    @include text2;
+    font-size: $_30px;
+    line-height: $_35px;
   }
 }
