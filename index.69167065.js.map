@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,EAAEC,UAAUC,OAAM,WAChBF,EAAE,wBAAwBG,MAAM,CAC9BC,MAAM,EACNC,MAAO","sources":["src/js/index.js"],"sourcesContent":["$(document).ready(function () {\r\n  $('.testimonials-slider').slick({\r\n    dots: true,\r\n    speed: 1000,\r\n  });\r\n});\r\n"],"names":["$","document","ready","slick","dots","speed"],"version":3,"file":"index.69167065.js.map"}
